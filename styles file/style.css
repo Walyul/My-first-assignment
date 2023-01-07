@@ -7,12 +7,12 @@
 .header{
     background-image: url(../images/banner/banner2.png);
     width: 1600px;
+    height:700px;
     left: 1600px;
     top: -23px;
     background-repeat: no-repeat;
     padding-top: 250px;
     padding-left: 600px;
-    margin-bottom: 150px;
 }
 
 .header-content{
@@ -52,8 +52,140 @@
     margin-top: 20px;
 }
 
+/* Main body */
 
 main{
-    max-width: 860px;
-    margin:0 auto;
+    max-width: 900px;
+    margin:0px auto;
 }
+
+/* My Failure section */
+.my-failure{
+    display: flex;
+    gap:30px;
+    justify-content: space-around;
+}
+.prv-year{
+    padding-top: 200px;
+}
+
+.prv-year h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color:#151414;
+    margin-bottom: 20px;
+}
+
+.p1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+.p2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #444343; 
+}
+
+/* My plan section */
+.head-name{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.parent{
+    text-align: center;
+    display:flex;
+    gap:30px;
+    justify-content: space-around;
+}
+.my-plan{
+    margin-bottom: 100px;
+}
+
+/* Always keep a positive mindset section */
+
+.watch{
+    background-image: url(../images/gradient3.png),url(../images/watch.png) ;
+    height: 500px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    padding: 65px 550px 59px 70px;
+
+}
+.watch h2{
+    font-weight: 700;
+    color:white;
+}
+.btn-primary-2{
+    color: #F15B22;;
+    font-weight:700px;
+    font-size:20px;
+    height:64px;
+    border:0;
+    padding: 18px 35px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Footer section */
+.footer{
+    display: flex;
+    gap: 50px;
+    background-color: #151414;
+    height:200px;
+    padding:150px;
+    justify-content: space-around;
+}
+.future{
+    color:white;
+}
+.future p{
+    font-size: 16px;
+}
+.future a{
+    text-decoration: none;
+    margin-right: 2px;
+}
+
+.subscribe h4{
+    color: #FFFFFF;
+}
+
+.mail{
+    height:50px;
+    background-color: #151414;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    width: 300px;
+}
+
+.btn-primary-3{
+    color: #F15B22;;
+    font-weight:700px;
+    font-size:20px;
+    height:64px;
+    border:0;
+    padding: 18px 35px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
